@@ -1,0 +1,25 @@
+.card-text-item {
+  float: left;
+  font-size: large;
+}
+
+.card-text-price {
+  float: right;
+  font-size: large;
+}
+
+.view-button {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.thumbnail-image {
+  width: 200px;
+  height: 200px;
+}

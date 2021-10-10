@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  padding: 25px;
+}
+
+.float-container {
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  font-size: x-large;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
