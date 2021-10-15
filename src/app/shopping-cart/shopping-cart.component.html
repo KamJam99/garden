@@ -1,0 +1,10 @@
+<div class="shopping-cart">
+<h1>Your Shopping Cart</h1>
+  <div class="float-container">
+    <div class="column"> Item </div>
+    <div class="column"> Count </div>
+    <div class="column"> Subtotal </div>
+  </div>
+  <br>
+  <app-cart-child *ngFor="let c of cartKids" [cartKid]="c" (removeFromCartEvent)="removeFromCart($event)"></app-cart-child>
+</div>
